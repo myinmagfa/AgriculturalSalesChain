@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgriculturalSalesChain.Api", "AgriculturalSalesChain.Api\AgriculturalSalesChain.Api.csproj", "{802AFBF3-AE8B-4878-8930-410B3E60604E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7B7CF7E7-BED1-488A-8423-CBE2726C2BCF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{66B3F978-84BA-43A1-B095-76196CA51289}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{F65CFF7E-2829-494A-95B3-C285CEDBF142}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{92CDE27A-FC25-406C-AEBB-41CA61676270}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{B3EC563F-23FD-41AA-A494-92EBDA1BD861}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{BE797035-0A62-486D-8BD6-87745559CABA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgriculturalSalesChain.Domain", "AgriculturalSalesChain.Domain\AgriculturalSalesChain.Domain.csproj", "{FE42D597-6846-40DB-A887-F8F9EF8E5E7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{802AFBF3-AE8B-4878-8930-410B3E60604E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{802AFBF3-AE8B-4878-8930-410B3E60604E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{802AFBF3-AE8B-4878-8930-410B3E60604E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{802AFBF3-AE8B-4878-8930-410B3E60604E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE42D597-6846-40DB-A887-F8F9EF8E5E7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE42D597-6846-40DB-A887-F8F9EF8E5E7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE42D597-6846-40DB-A887-F8F9EF8E5E7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE42D597-6846-40DB-A887-F8F9EF8E5E7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{802AFBF3-AE8B-4878-8930-410B3E60604E} = {66B3F978-84BA-43A1-B095-76196CA51289}
+		{66B3F978-84BA-43A1-B095-76196CA51289} = {7B7CF7E7-BED1-488A-8423-CBE2726C2BCF}
+		{92CDE27A-FC25-406C-AEBB-41CA61676270} = {7B7CF7E7-BED1-488A-8423-CBE2726C2BCF}
+		{B3EC563F-23FD-41AA-A494-92EBDA1BD861} = {7B7CF7E7-BED1-488A-8423-CBE2726C2BCF}
+		{BE797035-0A62-486D-8BD6-87745559CABA} = {7B7CF7E7-BED1-488A-8423-CBE2726C2BCF}
+		{FE42D597-6846-40DB-A887-F8F9EF8E5E7D} = {92CDE27A-FC25-406C-AEBB-41CA61676270}
+	EndGlobalSection
+EndGlobal
