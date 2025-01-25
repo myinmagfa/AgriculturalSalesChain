@@ -1,0 +1,6 @@
+@AgriculturalSalesChain_HostAddress = http://localhost:5047
+
+GET {{AgriculturalSalesChain_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
