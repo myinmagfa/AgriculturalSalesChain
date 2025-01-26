@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{BE797035-0A62-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgriculturalSalesChain.Domain", "AgriculturalSalesChain.Domain\AgriculturalSalesChain.Domain.csproj", "{FE42D597-6846-40DB-A887-F8F9EF8E5E7D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgriculturalSalesChain.Application", "AgriculturalSalesChain.Application\AgriculturalSalesChain.Application.csproj", "{6B20F26A-CB34-42AF-85B8-B077A7D9DF31}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{FE42D597-6846-40DB-A887-F8F9EF8E5E7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE42D597-6846-40DB-A887-F8F9EF8E5E7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE42D597-6846-40DB-A887-F8F9EF8E5E7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B20F26A-CB34-42AF-85B8-B077A7D9DF31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B20F26A-CB34-42AF-85B8-B077A7D9DF31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B20F26A-CB34-42AF-85B8-B077A7D9DF31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B20F26A-CB34-42AF-85B8-B077A7D9DF31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,5 +50,6 @@ Global
 		{B3EC563F-23FD-41AA-A494-92EBDA1BD861} = {7B7CF7E7-BED1-488A-8423-CBE2726C2BCF}
 		{BE797035-0A62-486D-8BD6-87745559CABA} = {7B7CF7E7-BED1-488A-8423-CBE2726C2BCF}
 		{FE42D597-6846-40DB-A887-F8F9EF8E5E7D} = {92CDE27A-FC25-406C-AEBB-41CA61676270}
+		{6B20F26A-CB34-42AF-85B8-B077A7D9DF31} = {92CDE27A-FC25-406C-AEBB-41CA61676270}
 	EndGlobalSection
 EndGlobal

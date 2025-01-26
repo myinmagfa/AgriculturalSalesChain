@@ -1,8 +1,8 @@
 ﻿using AgriculturalSalesChain.Domain.Common;
 
-namespace AgriculturalSalesChain.Models
+namespace AgriculturalSalesChain.Domain
 {
-    public class Inventory: BaseDomainEntitiy
+    public class Inventory: BaseDomainEntity
     {
         public int ProductId { get; set; }
         public Product Product { get; set; }

@@ -1,8 +1,8 @@
 ﻿using AgriculturalSalesChain.Domain.Common;
 
-namespace AgriculturalSalesChain.Models
+namespace AgriculturalSalesChain.Domain
 {
-    public class Order: BaseDomainEntitiy
+    public class Order: BaseDomainEntity
     {
         public string UserId { get; set; }
         public ApplicationUser User { get; set; }
