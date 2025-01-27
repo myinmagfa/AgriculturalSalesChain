@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using AgriculturalSalesChain.Application.DTOs;
+﻿using AgriculturalSalesChain.Application.DTOs;
 using AgriculturalSalesChain.Application.Features.Categories.Requests.Queries;
 using AgriculturalSalesChain.Application.Persistence.Contracts;
 using AutoMapper;

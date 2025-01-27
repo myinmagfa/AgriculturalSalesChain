@@ -18,6 +18,16 @@
   <ItemGroup>
     <Folder Include="Features\Categories\Handlers\Commands\" />
     <Folder Include="Features\Categories\Requests\Commands\" />
+    <Folder Include="Features\Products\Handlers\Commands\" />
+    <Folder Include="Features\Products\Handlers\Queries\" />
+    <Folder Include="Features\Products\Requests\Commands\" />
+    <Folder Include="Features\Products\Requests\Queries\" />
+    <Folder Include="Features\Orders\Handlers\Commands\" />
+    <Folder Include="Features\Orders\Handlers\Queries\" />
+    <Folder Include="Features\Orders\Requests\Commands\" />
+    <Folder Include="Features\Orders\Requests\Queries\" />
+    <Folder Include="Features\Inventories\Handlers\Commands\" />
+    <Folder Include="Features\Inventories\Requests\Commands\" />
   </ItemGroup>
 
 </Project>
