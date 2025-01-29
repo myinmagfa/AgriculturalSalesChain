@@ -1,4 +1,4 @@
-﻿using AgriculturalSalesChain.Application.DTOs;
+﻿using AgriculturalSalesChain.Application.DTOs.Category;
 using AgriculturalSalesChain.Application.Features.Categories.Requests.Queries;
 using AgriculturalSalesChain.Application.Persistence.Contracts;
 using AutoMapper;

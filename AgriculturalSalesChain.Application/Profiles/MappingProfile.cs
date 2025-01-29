@@ -1,4 +1,7 @@
-﻿using AgriculturalSalesChain.Application.DTOs;
+﻿using AgriculturalSalesChain.Application.DTOs.Category;
+using AgriculturalSalesChain.Application.DTOs.Inventory;
+using AgriculturalSalesChain.Application.DTOs.Order;
+using AgriculturalSalesChain.Application.DTOs.Product;
 using AgriculturalSalesChain.Domain;
 using AutoMapper;
 

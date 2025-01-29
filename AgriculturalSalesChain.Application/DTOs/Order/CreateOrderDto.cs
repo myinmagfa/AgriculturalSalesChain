@@ -1,14 +1,14 @@
-﻿using AgriculturalSalesChain.Domain;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using AgriculturalSalesChain.Application.DTOs.Common;
+using AgriculturalSalesChain.Application.DTOs.Product;
 
-namespace AgriculturalSalesChain.Application.DTOs
+namespace AgriculturalSalesChain.Application.DTOs.Order
 {
-    public class OrderDto:BaseDto
+    public class CreateOrderDto:BaseDto
     {
         public string UserId { get; set; }
         public ApplicationUserDto User { get; set; }

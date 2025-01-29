@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 using AgriculturalSalesChain.Application.DTOs.Inventory;
 using MediatR;
 
-namespace AgriculturalSalesChain.Application.Features.Inventories.Requests.Queries
+namespace AgriculturalSalesChain.Application.Features.Inventories.Requests.Commands
 {
-    public class GetInventoryListRequest:IRequest<List<InventoryDto>>
+    public class CreateInventoryCommand:IRequest<int>
     {
-        
+        public InventoryDto InventoryDto { get; set; }
     }
 }

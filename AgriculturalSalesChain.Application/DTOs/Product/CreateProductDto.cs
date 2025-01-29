@@ -1,14 +1,9 @@
-﻿using AgriculturalSalesChain.Domain;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using AgriculturalSalesChain.Application.DTOs.Category;
 using AgriculturalSalesChain.Application.DTOs.Common;
 
-namespace AgriculturalSalesChain.Application.DTOs
+namespace AgriculturalSalesChain.Application.DTOs.Product
 {
-    public class ProductDto:BaseDto
+    public class CreateProductDto:BaseDto
     {
         public string Name { get; set; }
         public string Description { get; set; }
