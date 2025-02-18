@@ -1,11 +1,5 @@
-﻿using AgriculturalSalesChain.Domain;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using AgriculturalSalesChain.Application.DTOs.Category;
 using AgriculturalSalesChain.Application.DTOs.Common;
-using AgriculturalSalesChain.Application.DTOs.Category;
 
 namespace AgriculturalSalesChain.Application.DTOs.Product
 {
