@@ -16,7 +16,6 @@ namespace AgriculturalSalesChain.Application.Features.Products.Handlers.Commands
         }
         public async Task<Unit> Handle(UpdateProductCommand request, CancellationToken cancellationToken)
         {
-            request.ProductDto
             var product=await _productRepository.GetAsync(request.ProductDto.Id);
             _mapper.Map(request.ProductDto, product);
             await _productRepository.Update(product);
